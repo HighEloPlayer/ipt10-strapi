@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "book_collection_types",
+  "info": {
+    "singularName": "book-collection-type",
+    "pluralName": "book-collection-types",
+    "displayName": "Book collection type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "\"old testament\"",
+        "\"new testament\""
+      ],
+      "default": "\"new testament\""
+    }
+  }
+}
